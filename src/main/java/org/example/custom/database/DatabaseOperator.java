@@ -1,7 +1,6 @@
 package org.example.custom.database;
 
 import org.example.custom.database.dto.*;
-import org.example.razorpay.database.dto.*;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -128,7 +127,7 @@ public class DatabaseOperator {
 
     public static void main(String[] args){
 
-        String tableName = "razorpay_tbl";
+        String tableName = "test_tbl";
 
         List<String> cols = new ArrayList<>();
         cols.add("txn_id int false");
