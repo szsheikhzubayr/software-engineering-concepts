@@ -17,9 +17,9 @@ public class URLShortener {
             }
             String shortLink = new String(result);
 
-            if(!DB.checkShortLinkExists(shortLink)){
-                return shortLink;
-            }
+//            if(!DB.checkShortLinkExists(shortLink)){
+//                return shortLink;
+//            }
             //this process of checking the DB every time if the short link already
             //exists or not will be slower with time as the number of links increase
         }
